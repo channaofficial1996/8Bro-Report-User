@@ -43,7 +43,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             chat_id=GROUP_ID, text=text, parse_mode="HTML", reply_markup=keyboard
         )
 
-    await update.message.reply_text("សួស្តី 👋\nខ្ញុំបានផ្ញើព័ត៌មានអ្នកទៅក្រុមរួច!")
+    await update.message.reply_text("សួស្តីបង 👋\nតើមានអ្វីអោយខ្ញុំជួយបង!")
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("/start  👉 send info to admin group")
